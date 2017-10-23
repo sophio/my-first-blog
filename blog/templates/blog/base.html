@@ -1,0 +1,14 @@
+    {% load staticfiles %}
+    <html>
+        <head>
+            <title>Django Girls blog</title>
+            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap-theme.min.css">
+            <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+            <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        </head>
+        <body>
+            {% block content %}
+            {% endblock %}
+        </body>
+    </html>
